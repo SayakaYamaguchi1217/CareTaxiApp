@@ -36,6 +36,22 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(8)
                     }
+                    
+                    NavigationLink(destination: RequestButtonView()) {
+                        Text("リクエストボタン")
+                            .frame(width: 200, height: 44)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
+                    
+                    NavigationLink(destination: ArrangementView()) {
+                        Text("配置")
+                            .frame(width: 200, height: 44)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
                 }
             }
             
