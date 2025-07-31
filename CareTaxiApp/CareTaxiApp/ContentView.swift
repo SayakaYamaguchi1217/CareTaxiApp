@@ -52,6 +52,14 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(8)
                     }
+                    
+                    NavigationLink(destination: SignUpView()) {
+                        Text("新規登録画面")
+                            .frame(width: 200, height: 44)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
                 }
             }
             
